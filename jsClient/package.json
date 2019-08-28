@@ -1,0 +1,19 @@
+{
+  "name": "jsclient",
+  "version": "1.0.0",
+  "description": "JS client for customer contorl",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Doimag",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "nodemon": "^1.18.9"
+  }
+}
